@@ -4,8 +4,13 @@ authors = []
 description = ""
 telemetry = true
 requirements = []
+
 [contracts.charity-matching-token]
 path = "contracts/charity-matching-token.clar"
+depends_on = ["nft-trait"]
+
+[contracts.nft-trait]
+path = "contracts/traits/nft-trait.clar"
 depends_on = []
 
 [repl]
