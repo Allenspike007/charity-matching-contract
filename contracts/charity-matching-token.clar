@@ -2,7 +2,7 @@
 ;; version: 1.0
 ;; summary: A token system that matches user donations based on token holdings
 
-(impl-trait 'SP000000000000000000002Q6VF78.traits.nft-trait)
+;; TODO: Implement NFT trait when trait system is properly configured
 
 ;; Error codes
 (define-constant ERR-NOT-AUTHORIZED (err u1000))
